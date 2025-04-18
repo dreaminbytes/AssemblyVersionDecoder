@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Edge - HTML",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost/AssemblyVersion/"
+            //"webRoot": "${workspaceFolder}"
+            //"file": "c:\\Users\\dream\\source\\GitHub\\MyProjects 2025\\AssemblyVersionToDate\\AssemblyVersionToDate.aspx"
+        },
+        {
+            "name": "Launch Edge - ASPX",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost/AssemblyVersion/default.aspx"
+        },
+        {
+            "name": "Open Chrome - HTML",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost/AssemblyVersion/"
+        }
+    ]
+}
